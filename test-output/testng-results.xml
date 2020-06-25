@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[the test suite started at : 25-06-2020 11-34-46]]>
+      <![CDATA[the test suite started at : 25-06-2020 06-05-26]]>
     </line>
     <line>
       <![CDATA[Browser launched successfully ]]>
@@ -11,7 +11,7 @@
       <![CDATA[Application loaded ]]>
     </line>
     <line>
-      <![CDATA[The test case started at : tc_0225-06-2020 11-34-58]]>
+      <![CDATA[The test case started at : tc_0225-06-2020 06-05-40]]>
     </line>
     <line>
       <![CDATA[Clicke onAccount Button]]>
@@ -29,19 +29,25 @@
       <![CDATA[Clicke onbooks click]]>
     </line>
     <line>
-      <![CDATA[The test case   tc_02Completed At :25-06-2020 11-35-11]]>
+      <![CDATA[Clicke onbooks click]]>
+    </line>
+    <line>
+      <![CDATA[Clicke onAddcart click]]>
+    </line>
+    <line>
+      <![CDATA[The test case   tc_02Completed At :25-06-2020 06-06-15]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28931" started-at="2020-06-25T06:04:46Z" finished-at="2020-06-25T06:05:15Z">
+  <suite name="Default suite" duration-ms="49410" started-at="2020-06-25T12:35:26Z" finished-at="2020-06-25T12:36:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28931" started-at="2020-06-25T06:04:46Z" finished-at="2020-06-25T06:05:15Z">
+    <test name="Default test" duration-ms="49410" started-at="2020-06-25T12:35:26Z" finished-at="2020-06-25T12:36:15Z">
       <class name="com.tyss.projectframeworks.scripts.LogiTest">
-        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.tyss.projectframeworks.scripts.LogiTest@548e7350]" name="setUp" is-config="true" duration-ms="11922" started-at="2020-06-25T11:34:46Z" finished-at="2020-06-25T11:34:58Z">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.tyss.projectframeworks.scripts.LogiTest@548e7350]" name="setUp" is-config="true" duration-ms="13527" started-at="2020-06-25T18:05:26Z" finished-at="2020-06-25T18:05:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@52d239ba]]>
+                <![CDATA[org.testng.TestRunner@774698ab]]>
               </value>
             </param>
           </params>
@@ -54,10 +60,10 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tc_02()[pri:0, instance:com.tyss.projectframeworks.scripts.LogiTest@548e7350]" name="tc_02" duration-ms="12747" started-at="2020-06-25T11:34:58Z" finished-at="2020-06-25T11:35:11Z">
+        <test-method status="PASS" signature="tc_02()[pri:0, instance:com.tyss.projectframeworks.scripts.LogiTest@548e7350]" name="tc_02" duration-ms="35448" started-at="2020-06-25T18:05:40Z" finished-at="2020-06-25T18:06:15Z">
           <reporter-output>
             <line>
-              <![CDATA[The test case started at : tc_0225-06-2020 11-34-58]]>
+              <![CDATA[The test case started at : tc_0225-06-2020 06-05-40]]>
             </line>
             <line>
               <![CDATA[Clicke onAccount Button]]>
@@ -75,11 +81,17 @@
               <![CDATA[Clicke onbooks click]]>
             </line>
             <line>
-              <![CDATA[The test case   tc_02Completed At :25-06-2020 11-35-11]]>
+              <![CDATA[Clicke onbooks click]]>
+            </line>
+            <line>
+              <![CDATA[Clicke onAddcart click]]>
+            </line>
+            <line>
+              <![CDATA[The test case   tc_02Completed At :25-06-2020 06-06-15]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_02 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tyss.projectframeworks.scripts.LogiTest@548e7350]" name="tearDown" is-config="true" duration-ms="4144" started-at="2020-06-25T11:35:11Z" finished-at="2020-06-25T11:35:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tyss.projectframeworks.scripts.LogiTest@548e7350]" name="tearDown" is-config="true" duration-ms="330" started-at="2020-06-25T18:06:15Z" finished-at="2020-06-25T18:06:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

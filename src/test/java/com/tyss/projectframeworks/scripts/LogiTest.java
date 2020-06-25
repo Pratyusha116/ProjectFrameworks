@@ -18,6 +18,7 @@ import org.testng.annotations.Test;
 import com.tyss.projectframeworks.init.Iconstants;
 import com.tyss.projectframeworks.lib.Baselib;
 import com.tyss.projectframeworks.lib.ExcelLib;
+import com.tyss.projectframeworks.pages.AddtoCart;
 import com.tyss.projectframeworks.pages.BookPage;
 import com.tyss.projectframeworks.pages.Homepage;
 import com.tyss.projectframeworks.pages.MyCartPage;
@@ -45,6 +46,13 @@ public class LogiTest extends Baselib {
 	BookPage bp = new BookPage(driver);
 	Thread.sleep(5000);
 	bp.BooksClick();
+	Thread.sleep(5000);
+	bp.Book1Click();
+	Thread.sleep(5000);
+	AddtoCart atc = new AddtoCart(driver);
+	Assert.assertEquals(atc.getaddCart(), ExcelLib.getData("Sheet1", 1, 4, Iconstants.expectedexcelPath));
+	atc.addCart();
+	Thread.sleep(5000);
 	}
 	
 	
