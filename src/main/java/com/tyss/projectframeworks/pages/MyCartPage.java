@@ -12,6 +12,8 @@ public class MyCartPage {
 	private WebElement welcomeName;
 	
 	
+	
+	
 	public MyCartPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
