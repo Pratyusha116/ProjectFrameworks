@@ -6,7 +6,6 @@
       <class name="com.tyss.projectframeworks.scripts.LogiTest">
         <methods>
           <include name="setUp"/>
-          <include name="tearDown"/>
           <include name="tc_02"/>
         </methods>
       </class> <!-- com.tyss.projectframeworks.scripts.LogiTest -->

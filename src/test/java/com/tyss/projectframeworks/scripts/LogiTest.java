@@ -9,6 +9,7 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
@@ -18,6 +19,7 @@ import org.testng.annotations.Test;
 import com.tyss.projectframeworks.init.Iconstants;
 import com.tyss.projectframeworks.lib.Baselib;
 import com.tyss.projectframeworks.lib.ExcelLib;
+import com.tyss.projectframeworks.lib.GenericLib;
 import com.tyss.projectframeworks.pages.AddtoCart;
 import com.tyss.projectframeworks.pages.BookPage;
 import com.tyss.projectframeworks.pages.Homepage;
@@ -52,6 +54,8 @@ public class LogiTest extends Baselib {
 	AddtoCart atc = new AddtoCart(driver);
 	Assert.assertEquals(atc.getaddCart(), ExcelLib.getData("Sheet1", 1, 4, Iconstants.expectedexcelPath));
 	atc.addCart();
+	Thread.sleep(5000);
+	GenericLib.handleAlert(driver);
 	Thread.sleep(5000);
 	}
 	

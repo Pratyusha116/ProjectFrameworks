@@ -17,9 +17,7 @@ public class ExcelLib {
 			Workbook wb = WorkbookFactory.create(fin);
 	Cell c = wb.getSheet(sheet).getRow(row).getCell(cell);		
 	data = c.getStringCellValue();
-			
-			
-		} catch (Exception e) {
+			} catch (Exception e) {
 			
 			e.printStackTrace();
 		}

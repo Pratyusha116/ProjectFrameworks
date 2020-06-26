@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Properties;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.TimeoutException;
@@ -41,7 +42,7 @@ public class GenericLib {
 		try{		
 			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions.visibilityOf(ele)).click();
-			Reporter.log("Clicke on"+eleName);
+			Reporter.log("Clicked on"+eleName);
 			}
 		catch (TimeoutException e) {
 			Reporter.log(eleName+"Not dispalyed");
@@ -79,5 +80,8 @@ public class GenericLib {
 		}
 	}
 	
-	
+	public static void handleAlert(WebDriver driver) {
+		Alert ac = driver.switchTo().alert();
+		ac.accept();
+	}
 }
